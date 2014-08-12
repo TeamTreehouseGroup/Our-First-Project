@@ -7,7 +7,7 @@ This is where we are going to put project ideas for now. Simply add them to the 
 
 Project Ideas:
 ==============
-  1. Group Site
+  1. Group Site - <a href="http://teamtreehousegroup.github.io/Our-First-Project/index.html">Preview.</a>
   2. Recreate another popular website (At least the front end of it)
   3. Create a Web Design Company website to promote services, etc...
 
