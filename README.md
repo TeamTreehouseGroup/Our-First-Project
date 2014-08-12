@@ -17,3 +17,5 @@ Individual Strengths:
 This is to get a feel for what each of us can do well already so far.
 
 Paul - HTML5, CSS3, and Responsive Design are what I've been working with mostly. I know very basic PHP and am getting started in Javascript in the next few days or so.
+
+Ricky - HTML, CSS, Python for scripts, Django, and Gui development. A knowledge of the basics of PHP. I am going to try to gain an advanced Knowledge of Python, and PHP in the future.
