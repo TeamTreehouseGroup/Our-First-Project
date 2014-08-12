@@ -16,6 +16,6 @@ Individual Strengths:
 ==============
 This is to get a feel for what each of us can do well already so far.
 
-Paul - HTML5, CSS3, and Responsive Design are what I've been working with mostly. I know very basic PHP and am getting started in Javascript in the next few days or so.
+Paul - HTML5, CSS3, and Responsive Design are what I've been working with mostly. I know very basic PHP and am getting started in Javascript in the next few days or so. I'm currently coding CSS using Sass for my preprocessor. (Look into the Sass courses if you're unfamiliar. It makes CSS much more awesome!)
 
 Ricky - HTML, CSS, Python for scripts, Django, and Gui development. A knowledge of the basics of PHP. I am going to try to gain an advanced Knowledge of Python, and PHP in the future.
