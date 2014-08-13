@@ -27,7 +27,43 @@ Design Ideas (Colors, Layouts, Special Touches):
 
 Ricky - Drop Down nav bar with header at top of page. Then two column layout below. The left column about 70-80% of page and right column 20-30%. A footer with contact information at the bottom.
 
+Markus - I wanted to make a little voting type system here for some options we could use. Before I start designing we should choose few things.
 
-#Test
 
-test test test test test test
+#Voting
+
+###Color theme
+
+| Options      | Steve | Paul | Ricky | Andre | Chandan | Markus |
+| :----------- | :---: | :--: | :---: | :---: | :-----: | :----: |
+| Dark Theme   |       |      |       |       |         |        |
+| Bright Theme |       |      |       |       |         | X      |
+
+####If you have specific color theme in mind, please share it under
+
+
+###Width of the page
+
+| Options        | Steve | Paul | Ricky | Andre | Chandan | Markus |
+| :------------- | :---: | :--: | :---: | :---: | :-----: | :----: |
+| Full width     |       |      |       |       |         |        |
+| Typical width  |       |      |       |       |         |        |
+| Something else |       |      |       |       |         | X      |
+
+####If something else, leave your recommendation under
+ 
+Markus - I would like to build something completely different from normal website. Something that you won't see every day on the web.
+I'm not sure what it would be, but definitely something not so mainstream. We should stand out from everyone else.
+
+
+###Flat/skeumorphic designing
+
+| Options     | Steve | Paul | Ricky | Andre | Chandan | Markus |
+| :---------- | :---: | :--: | :---: | :---: | :-----: | :----: |
+| Flat        |       |      |       |       |         | X      |
+| Skeumorphic |       |      |       |       |         |        |
+
+!!NOTES:
+
+Markus - I'm also totally fine with more skeumorphic look, but I'd like to make our website to look modern and up to date.
+
