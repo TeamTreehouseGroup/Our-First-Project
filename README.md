@@ -49,7 +49,7 @@ Paul - If at all possible, I'd like to steer away from a full Parallax page, as 
 
 ####If you have specific color theme in mind, please share it under
 
-Paul - I have Dark as my choice, but it's a little broad. I'd just want to try and stay away from anything on a color wheel that is brighter than anything set to a 75% brightness. (If that makes sense at all!)
+Paul - I have Dark as my choice, but it's a little broad. I'd just want to try and stay away from anything on a color wheel that is brighter than anything set to a 75% brightness. (If that makes sense at all!) Also found a nice little pleasant color pallette. :) <a href="https://kuler.adobe.com/Vintage-Ralph-Lauren-color-theme-2216979/">Darker, more earthly colors</a>
 
 
 ###Width of the page
