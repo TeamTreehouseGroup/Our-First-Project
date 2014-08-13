@@ -22,7 +22,7 @@ Ricky - HTML, CSS, Python for scripts, Django, and Gui development. A knowledge 
 
 Andre - Mainly JavaScript and jQuery, with some knowledge of HTML and CSS.
 
-Design Ideas (Include, Colors, Layouts, Special Touches):
-=========================================================
+Design Ideas (Colors, Layouts, Special Touches):
+============
 
 Ricky - Drop Down nav bar with header at top of page. Then two column layout below. The left column about 70-80% of page and right column 20-30%. A footer with contact information at the bottom.
