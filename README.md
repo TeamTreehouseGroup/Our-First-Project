@@ -44,7 +44,7 @@ Paul - If at all possible, I'd like to steer away from a full Parallax page, as 
 
 | Options      | Steve | Paul | Ricky | Andre | Chandan | Markus |
 | :----------- | :---: | :--: | :---: | :---: | :-----: | :----: |
-| Dark Theme   |       | X    |       |       |         |        |
+| Dark Theme   |       | X    | X     |       |         |        |
 | Bright Theme |       |      |       | X     |         | X      |
 
 ####If you have specific color theme in mind, please share it under
@@ -58,7 +58,7 @@ Paul - I have Dark as my choice, but it's a little broad. I'd just want to try a
 
 | Options        | Steve | Paul | Ricky | Andre | Chandan | Markus |
 | :------------- | :---: | :--: | :---: | :---: | :-----: | :----: |
-| Full width     |       | X    |       |       |         |        |
+| Full width     |       | X    | X     |       |         |        |
 | Typical width  |       |      |       |       |         |        |
 | Something else |       |      |       |       |         | X      |
 
@@ -74,7 +74,7 @@ Andre - I'm not sure which to choose, in my opinion we should do something clean
 
 | Options     | Steve | Paul | Ricky | Andre | Chandan | Markus |
 | :---------- | :---: | :--: | :---: | :---: | :-----: | :----: |
-| Flat        |       | X    |       | X     |         | X      |
+| Flat        |       | X    | X     | X     |         | X      |
 | Skeumorphic |       |      |       |       |         |        |
 
 ####Do you have something else to say
