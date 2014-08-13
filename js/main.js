@@ -7,8 +7,8 @@ var $menuOverlay = $("<div class='menu-overlay'></div>");
 var $menuIcon = $(".icon-menu");
 var $menuBody = $(".main-nav");
 
-var menu_fadeOutTime = 500;
-var menu_fadeInTime = 500;
+var menu_fadeOutTime = 200;
+var menu_fadeInTime = 200;
 
 $("body").append($menuOverlay);
 
