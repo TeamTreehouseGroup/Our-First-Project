@@ -38,7 +38,7 @@ body {
   font-style: normal;
 }
 
-.icon-menu, 
+/*.icon-menu, */
 .icon-github {
   font-family: 'icomoon';
   speak: none;
@@ -88,14 +88,15 @@ a {
 .icon-menu {
   display: inline-block;
   position: fixed;
-  font-size: 0em;
   top: 0;
   left: 0;
   width: 60px;
   height: 60px;
-  background: white;
   background-color: lightgrey;
   z-index: 2;
+
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
 }
 .icon-menu span {
   /* the span element is used to create the menu icon */
@@ -171,9 +172,17 @@ a {
   padding: 10px;
 }
 
-.show-nav {
+.main-nav.show-nav {
   -webkit-transform: translateX(300px);
   transform: translateX(300px);
+}
+
+.icon-menu.show-nav {
+  width: 300px;
+}
+
+.icon-menu p {
+  display: none;
 }
 
 .menu-overlay {
