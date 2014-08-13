@@ -45,7 +45,7 @@ Paul - If at all possible, I'd like to steer away from a full Parallax page, as 
 | Options      | Steve | Paul | Ricky | Andre | Chandan | Markus |
 | :----------- | :---: | :--: | :---: | :---: | :-----: | :----: |
 | Dark Theme   |       | X    |       |       |         |        |
-| Bright Theme |       |      |       |       |         | X      |
+| Bright Theme |       |      |       | X     |         | X      |
 
 ####If you have specific color theme in mind, please share it under
 
@@ -69,12 +69,12 @@ I'm not sure what it would be, but definitely something not so mainstream. We sh
 
 Paul - I'm not quite sure what we can pull off in terms of anything outside the box of normal width pages. There are sites that using very interesting scroll techniques, but I'm not sure we want something overly complicated for a first project.
 
-
+Andre - I'm not sure which to choose, in my opinion we should do something clean with some white space on the sides and the content centered.
 ###Flat/skeumorphic design
 
 | Options     | Steve | Paul | Ricky | Andre | Chandan | Markus |
 | :---------- | :---: | :--: | :---: | :---: | :-----: | :----: |
-| Flat        |       | X    |       |       |         | X      |
+| Flat        |       | X    |       | X     |         | X      |
 | Skeumorphic |       |      |       |       |         |        |
 
 ####Do you have something else to say
