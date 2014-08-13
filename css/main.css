@@ -141,7 +141,6 @@ a {
   padding: 0;
 
   z-index: 2;
-
   -webkit-transition: -webkit-transform 0.1s linear;
   transition: transform 0.1s linear;
 }
