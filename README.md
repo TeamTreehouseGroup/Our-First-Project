@@ -70,14 +70,14 @@ I'm not sure what it would be, but definitely something not so mainstream. We sh
 Paul - I'm not quite sure what we can pull off in terms of anything outside the box of normal width pages. There are sites that using very interesting scroll techniques, but I'm not sure we want something overly complicated for a first project.
 
 
-###Flat/skeumorphic designing
+###Flat/skeumorphic design
 
 | Options     | Steve | Paul | Ricky | Andre | Chandan | Markus |
 | :---------- | :---: | :--: | :---: | :---: | :-----: | :----: |
 | Flat        |       | X    |       |       |         | X      |
 | Skeumorphic |       |      |       |       |         |        |
 
-!!NOTES:
+####Do you have something else to say
 
 Markus - I'm also totally fine with more skeumorphic look, but I'd like to make our website to look modern and up to date.
 
