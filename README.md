@@ -82,3 +82,22 @@ Andre - I'm not sure which to choose, in my opinion we should do something clean
 Markus - I'm also totally fine with more skeumorphic look, but I'd like to make our website to look modern and up to date.
 
 Paul - I think a flat design would simply be easier to make for now. There is just a lot less to take into consideration when designing in such a way. It also seems to make file sizes smaller. (Think about the lack of box-shadow and fewer hover animations that are a little too intricate)
+
+
+#Content
+
+#####Welcome to our site
+
+#####About us
+
+#####Portfolio
+
+#####Contact us
+
+Markus - We could add a working contact form to our site.
+
+#####Follow us
+
+#####Live Chat
+
+Markus - I have this idea to add a little live chat box to our site. It could show who is available to chat with. We could use PHP and Javascript/Ajax to push the messages to database. I'm not sure if we can do this but at least it's an idea.
