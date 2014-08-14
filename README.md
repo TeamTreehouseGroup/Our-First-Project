@@ -101,3 +101,5 @@ Markus - We could add a working contact form to our site.
 #####Live Chat
 
 Markus - I have this idea to add a little live chat box to our site. It could show who is available to chat with. We could use PHP and Javascript/Ajax to push the messages to database. I'm not sure if we can do this but at least it's an idea.
+
+Ricky - It is possible. I have written up a simple forum before and it would not be to hard to modify into this. I will start brainstorming.
