@@ -88,9 +88,15 @@ Paul - I think a flat design would simply be easier to make for now. There is ju
 
 #####Welcome to our site
 
+Ricky - Display a few selections from the portfolio, a little from the about us page, maybe a special deal?
+
 #####About us
 
+Ricky - Brief intro for each member, Little about treehouse ,How we formed, What our mission statment is, Plans for the future
+
 #####Portfolio
+
+Ricky - List of sites we have made with: screenshots, links, brief description, list of features used
 
 #####Contact us
 
@@ -98,8 +104,14 @@ Markus - We could add a working contact form to our site.
 
 #####Follow us
 
+Ricky - Could be done in footer instead of seperate page.
+
 #####Live Chat
 
 Markus - I have this idea to add a little live chat box to our site. It could show who is available to chat with. We could use PHP and Javascript/Ajax to push the messages to database. I'm not sure if we can do this but at least it's an idea.
 
 Ricky - It is possible. I have written up a simple forum before and it would not be to hard to modify into this. I will start brainstorming.
+
+#####Blog:
+
+Ricky - Wordpress: Build site into simple wordpress theme. OR PHP: Easy admin only form
