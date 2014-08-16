@@ -44,8 +44,8 @@ Paul - If at all possible, I'd like to steer away from a full Parallax page, as 
 
 | Options      | Steve | Paul | Ricky | Andre | Chandan | Markus |
 | :----------- | :---: | :--: | :---: | :---: | :-----: | :----: |
-| Dark Theme   |       | X    |       |       |         |        |
-| Bright Theme |       |      |       |       |         | X      |
+| Dark Theme   |       | X    | X     |       |         |        |
+| Bright Theme |       |      |       | X     |         | X      |
 
 ####If you have specific color theme in mind, please share it under
 
@@ -58,7 +58,7 @@ Paul - I have Dark as my choice, but it's a little broad. I'd just want to try a
 
 | Options        | Steve | Paul | Ricky | Andre | Chandan | Markus |
 | :------------- | :---: | :--: | :---: | :---: | :-----: | :----: |
-| Full width     |       | X    |       |       |         |        |
+| Full width     |       | X    | X     |       |         |        |
 | Typical width  |       |      |       |       |         |        |
 | Something else |       |      |       |       |         | X      |
 
@@ -69,12 +69,12 @@ I'm not sure what it would be, but definitely something not so mainstream. We sh
 
 Paul - I'm not quite sure what we can pull off in terms of anything outside the box of normal width pages. There are sites that using very interesting scroll techniques, but I'm not sure we want something overly complicated for a first project.
 
-
+Andre - I'm not sure which to choose, in my opinion we should do something clean with some white space on the sides and the content centered.
 ###Flat/skeumorphic design
 
 | Options     | Steve | Paul | Ricky | Andre | Chandan | Markus |
 | :---------- | :---: | :--: | :---: | :---: | :-----: | :----: |
-| Flat        |       | X    |       |       |         | X      |
+| Flat        |       | X    | X     | X     |         | X      |
 | Skeumorphic |       |      |       |       |         |        |
 
 ####Do you have something else to say
@@ -82,3 +82,36 @@ Paul - I'm not quite sure what we can pull off in terms of anything outside the 
 Markus - I'm also totally fine with more skeumorphic look, but I'd like to make our website to look modern and up to date.
 
 Paul - I think a flat design would simply be easier to make for now. There is just a lot less to take into consideration when designing in such a way. It also seems to make file sizes smaller. (Think about the lack of box-shadow and fewer hover animations that are a little too intricate)
+
+
+#Content
+
+#####Welcome to our site
+
+Ricky - Display a few selections from the portfolio, a little from the about us page, maybe a special deal?
+
+#####About us
+
+Ricky - Brief intro for each member, Little about treehouse ,How we formed, What our mission statment is, Plans for the future
+
+#####Portfolio
+
+Ricky - List of sites we have made with: screenshots, links, brief description, list of features used
+
+#####Contact us
+
+Markus - We could add a working contact form to our site.
+
+#####Follow us
+
+Ricky - Could be done in footer instead of seperate page.
+
+#####Live Chat
+
+Markus - I have this idea to add a little live chat box to our site. It could show who is available to chat with. We could use PHP and Javascript/Ajax to push the messages to database. I'm not sure if we can do this but at least it's an idea.
+
+Ricky - It is possible. I have written up a simple forum before and it would not be to hard to modify into this. I will start brainstorming.
+
+#####Blog:
+
+Ricky - Wordpress: Build site into simple wordpress theme. OR PHP: Easy admin only form
