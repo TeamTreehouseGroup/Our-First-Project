@@ -11,7 +11,8 @@
 <body>
 
   <header class="main-header">
-    <a href="" class="main-logo"><img src="http://lorempixel.com/75/75" alt=""></a>
+    <!-- src="http://lorempixel.com/75/75" -->
+    <a href="" class="main-logo"><img src="http://dummyimage.com/75x75/000/fff.jpg" alt=""></a>
     <h2 class="main-heading">CLPhoto</h2>
     <a href="" class="menu-icon unselectable"><span></span></a>
   </header>
@@ -54,26 +55,26 @@
   <hr class="secondary-header-spacer">
 
   <section id="gallery">
-    <a href=""><img src="http://lorempixel.com/800/400" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/801/500" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/802/660" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/803/420" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/804/600" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1001/500" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1002/500" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1003/500" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1004/500" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1005/500" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1401/900" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1402/900" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1403/900" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1404/900" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1405/900" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1021/768" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1022/768" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1023/768" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1024/768" alt=""></a>
-    <a href=""><img src="http://lorempixel.com/1025/768" alt=""></a>
+    <a href="" class="masonry-item grid-sizer"><img src="http://dummyimage.com/600x400/000/fff.jpg"alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
+    <a href="" class="masonry-item"><img src="http://dummyimage.com/600x400/000/fff.jpg" alt=""></a>
   </section>
 
   <button class="load-more-button">Load More</button>
@@ -95,5 +96,16 @@
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/main.js" type="text/javascript"></script>
 <script src="js/menuSlide.js" type="text/javascript"></script>
+<script src="bower_components/masonry/dist/masonry.pkgd.min.js"></script>
+<script src="bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script>
+  // Masonry init via jQuery
+  var $masonryContainer = $('#gallery');
+  $masonryContainer.imagesLoaded( function() {
+    $masonryContainer.masonry({
+      itemSelector: ".masonry-item"
+    });
+  });
+</script>
 </body>
 </html>

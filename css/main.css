@@ -322,16 +322,20 @@ body {
     width: 100px; }
 
 #gallery {
-  display: flex;
-  flex-flow: row wrap; }
-  #gallery a {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 0; }
+  #gallery .masonry-item {
     width: 50%;
-    padding: 5px;
-    padding-bottom: 0; }
-  #gallery a:nth-child(2n) {
-    padding-left: 0; }
-  #gallery img {
-    max-width: 100%; }
+    display: block;
+    padding: 10px; }
+    #gallery .masonry-item a, #gallery .masonry-item img {
+      outline: none;
+      border: none;
+      display: block;
+      max-width: 100%; }
+    #gallery .masonry-item img {
+      border: 3px solid rgba(0, 0, 0, 0.15); }
 
 .load-more-button {
   margin: 25px auto 15px auto;

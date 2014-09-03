@@ -99,20 +99,31 @@
 // ====================================
 
 #gallery
-  display: flex
-  flex-flow: row wrap
+  // display: flex
+  // flex-flow: row wrap
+  max-width: 95%
+  margin: 0 auto
+  padding: 0
 
-  a
+  .masonry-item
     width: 50%
-    padding: 5px
-    padding-bottom: 0
-
-  a:nth-child(2n)
-    padding-left: 0
-
-  img
-    max-width: 100%
+    display: block
+    padding: 10px
     
+    
+    a, img
+      outline: none
+      border: none
+      display: block
+      max-width: 100%
+
+
+    img
+      border: 3px solid rgba(0,0,0,.15)
+
+
+
+
 
 .load-more-button
   margin: 25px auto 15px auto
