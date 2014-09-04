@@ -206,10 +206,10 @@ a:hover, a:focus {
   color: #d1d1d1; }
 
 ::selection {
-  background: #FFF498; }
+  background: transparent; }
 
 ::-moz-selection {
-  background: #FFF498; }
+  background: transparent; }
 
 img::selection {
   background: transparent; }
@@ -218,7 +218,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #FFF498; }
+  -webkit-tap-highlight-color: transparent; }
 
 .unselectable {
   -webkit-user-select: none;
@@ -336,7 +336,14 @@ body {
   font-size: 1.2em;
   letter-spacing: 0;
   line-height: 1.7;
-  /* Force Hardware Acceleration in WebKit */ }
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
   .main-nav ul, .main-sorting label ul {
     list-style: none;
     padding: 0;
