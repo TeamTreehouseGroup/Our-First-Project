@@ -12,9 +12,13 @@ $('.menu-icon').click(function(evt) {
 	//Prevent default behavior
 	evt.preventDefault();
 	//Logic to recognize either to close or open the menu
-	if($menu.css('height') === "0px") {
+	if($menu.css('height') === '0px') {
+    // OPEN
+    $('.menu-icon').addClass('active');
 		$menu.css('height', originalHeight);
 	} else {
+    // CLOSED
+    $('.menu-icon').removeClass('active');
 		$menu.css('height', '0px');
 	}
 }); //end click function
