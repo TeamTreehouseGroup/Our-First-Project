@@ -336,14 +336,7 @@ body {
   font-size: 1.2em;
   letter-spacing: 0;
   line-height: 1.7;
-  /* Force Hardware Acceleration in WebKit */
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
+  /* Force Hardware Acceleration in WebKit */ }
   .main-nav ul, .main-sorting label ul {
     list-style: none;
     padding: 0;
