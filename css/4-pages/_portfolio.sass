@@ -31,8 +31,7 @@
       height: 100%
       /* Force Hardware Acceleration in WebKit */
       +transform(translateZ(0))
-      -webkit-backface-visibility: hidden
-      backface-visibility: hidden
+      +backface-visibility(hidden)
 
       +transition(transform $menu-transition-duration)
 
@@ -92,6 +91,10 @@
   letter-spacing: 0
   line-height: 1.7
 
+  /* Force Hardware Acceleration in WebKit */
+  +transform(translateZ(0))
+  +backface-visibility(hidden)
+
   ul
     list-style: none
     padding: 0
@@ -125,15 +128,14 @@
 #gallery
   // display: flex
   // flex-flow: row wrap
-  max-width: 95%
-  margin: 0 auto
+  max-width: 100%
+  margin: 0 5px
   padding: 0
 
   .masonry-item
     width: 50%
     display: block
-    padding: 10px
-    
+    padding: 4px
     
     img
       outline: none
@@ -143,10 +145,19 @@
       border: 3px solid rgba(0,0,0,.15)
 
 
-
-.load-more-button
+.load-more-wrapper
   margin: 25px auto 15px auto
-  display: block
+  width: 100%
+  padding: 9px
+
+  div
+    width: 100%
+
+    .load-more-button
+      width: 100%
+
+  
+
 
 
 // ====================================
@@ -215,7 +226,7 @@
       content: "\e602"
 
   .social-icon-youtube
-    padding-top: 9px
+    padding-top: 0.56em
 
     &:hover
       background: #bb0000
@@ -229,7 +240,7 @@
       content: "\e604"
 
   .social-icon-flickr
-    padding-top: 8px
+    padding-top: 0.56em
 
     &:hover
       background: #ff0084
