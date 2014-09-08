@@ -378,7 +378,8 @@ body {
       border: none;
       display: block;
       max-width: 100%;
-      border: 3px solid rgba(0, 0, 0, 0.15); }
+      border: 3px solid rgba(0, 0, 0, 0.15);
+      margin: 0 auto; }
 
 .load-more-wrapper {
   margin: 25px auto 15px auto;
